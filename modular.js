@@ -6,7 +6,7 @@ function imprimir(error , data) {
     for (var i in data) {
       console.log(data[i]);
     }
-  }  
+  }
 }
 var back = require('./modular2.js');
 back(process.argv[2] , process.argv[3] , imprimir);
