@@ -8,5 +8,7 @@ function imprimir(error , data) {
     }
   }
 }
+
 var back = require('./modular2.js');
+
 back(process.argv[2] , process.argv[3] , imprimir);
